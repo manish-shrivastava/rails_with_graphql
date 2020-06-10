@@ -6,5 +6,8 @@ module Types
     def test_field
       "Hello World"
     end
+    field :create_user ,mutation: Mutations::CreateUser
+    field :remove_user ,mutation: Mutations::RemoveUser
+
   end
 end
